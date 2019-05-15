@@ -1,0 +1,18 @@
+[2019-05-14 14:59:04] INFO [<module>: run_test.py, 7] ================================== 测试开始 ==================================
+[2019-05-14 14:59:04] DEBUG [_new_conn: connectionpool.py, 813] Starting new HTTPS connection (1): free-api.heweather.net:443
+[2019-05-14 14:59:16] DEBUG [_make_request: connectionpool.py, 393] https://free-api.heweather.net:443 "GET /s6/weather/now?location=beijing&key=7cb4affc76d64bb891658f981c2b544d HTTP/1.1" 200 451
+[2019-05-14 14:59:16] INFO [log_case_info: case_log.py, 7] 测试用例：test_hw_weather_api
+[2019-05-14 14:59:16] INFO [log_case_info: case_log.py, 8] url：https://free-api.heweather.net/s6/weather/now?location=beijing&key=7cb4affc76d64bb891658f981c2b544d
+[2019-05-14 14:59:16] INFO [log_case_info: case_log.py, 9] 请求参数：
+[2019-05-14 14:59:16] INFO [log_case_info: case_log.py, 10] 期望结果：ok
+[2019-05-14 14:59:16] INFO [log_case_info: case_log.py, 11] 实际结果：ok
+[2019-05-14 14:59:17] INFO [<module>: run_test.py, 21] ================================== 测试结束 ==================================
+[2019-05-14 15:07:18] INFO [<module>: run_test.py, 7] ================================== 测试开始 ==================================
+[2019-05-14 15:07:18] DEBUG [_new_conn: connectionpool.py, 813] Starting new HTTPS connection (1): free-api.heweather.net:443
+[2019-05-14 15:07:18] DEBUG [_make_request: connectionpool.py, 393] https://free-api.heweather.net:443 "GET /s6/weather/now?location=beijing&key=7cb4affc76d64bb891658f981c2b544d HTTP/1.1" 200 452
+[2019-05-14 15:07:18] INFO [log_case_info: case_log.py, 7] 测试用例：test_hw_weather_api
+[2019-05-14 15:07:18] INFO [log_case_info: case_log.py, 8] url：https://free-api.heweather.net/s6/weather/now?location=beijing&key=7cb4affc76d64bb891658f981c2b544d
+[2019-05-14 15:07:18] INFO [log_case_info: case_log.py, 9] 请求参数：
+[2019-05-14 15:07:18] INFO [log_case_info: case_log.py, 10] 期望结果：ok
+[2019-05-14 15:07:18] INFO [log_case_info: case_log.py, 11] 实际结果：ok
+[2019-05-14 15:07:31] INFO [<module>: run_test.py, 21] ================================== 测试结束 ==================================
